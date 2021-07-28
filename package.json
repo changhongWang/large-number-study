@@ -1,15 +1,18 @@
 {
-  "name": "large-number",
+  "name": "@chwangstudy/large-number",
   "version": "1.0.0",
-  "description": "",
+  "description": "a library for add with 2 large number",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublish": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "terser-webpack-plugin": "^5.1.4",
     "webpack": "^5.47.0",
     "webpack-cli": "^4.7.2"
   }
